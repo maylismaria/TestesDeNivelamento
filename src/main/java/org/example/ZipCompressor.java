@@ -1,27 +1,23 @@
 package org.example;
 
 import java.io.*;
+import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
 public class ZipCompressor {
 
-    // Método para compactar os arquivos em ZIP
-    public static void zipFiles(String folderPath, String zipFilePath) throws IOException {
-        File folder = new File(folderPath);
-        File[] files = folder.listFiles((dir, name) -> name.endsWith(".pdf"));
-
-        if (files == null || files.length == 0) {
-            System.out.println("Nenhum arquivo PDF encontrado para compactar.");
-            return;
+    public static void zipFiles(List<String> filesToZip, String zipFilePath) throws IOException {
+        if (filesToZip == null || filesToZip.isEmpty()) {
+            return; // Nenhum arquivo para compactar
         }
 
         try (FileOutputStream fos = new FileOutputStream(zipFilePath);
              ZipOutputStream zos = new ZipOutputStream(fos)) {
-            for (File file : files) {
+            for (String filePath : filesToZip) {
+                File file = new File(filePath);
                 try (FileInputStream fis = new FileInputStream(file)) {
-                    ZipEntry zipEntry = new ZipEntry(file.getName());
-                    zos.putNextEntry(zipEntry);
+                    zos.putNextEntry(new ZipEntry(file.getName()));
 
                     byte[] buffer = new byte[1024];
                     int length;
@@ -29,15 +25,10 @@ public class ZipCompressor {
                         zos.write(buffer, 0, length);
                     }
                     zos.closeEntry();
-                    System.out.println("Arquivo compactado: " + file.getName());
                 } catch (IOException e) {
                     System.err.println("Erro ao compactar o arquivo: " + file.getName());
                 }
             }
-        } catch (IOException e) {
-            System.err.println("Erro ao criar o arquivo ZIP: " + e.getMessage());
-            throw e;  // Re-throw para ser tratado na classe principal
         }
     }
 }
-
