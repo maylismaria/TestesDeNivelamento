@@ -1,0 +1,16 @@
+<configuration>
+    <!-- 🔹 Define o Appender primeiro -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 🔹 Define o nível de log para a biblioteca do Apache HttpClient -->
+    <logger name="org.apache.hc" level="WARN"/>
+
+    <!-- 🔹 Configuração global de logs -->
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>

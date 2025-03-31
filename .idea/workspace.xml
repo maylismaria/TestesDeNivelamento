@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a315e8b-8045-43da-95c3-a6ac7c72bf1a" name="Changes" comment="Teste 1">
+    <list default="true" id="8a315e8b-8045-43da-95c3-a6ac7c72bf1a" name="Changes" comment="rol de procedimentos no csv">
+      <change afterPath="$PROJECT_DIR$/Rol_Procedimentos.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/downloads/Anexo_I_Rol_2021RN_465.2021_RN627L.2024.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test2/Teste2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Anexos.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Anexos.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/downloads/Anexo_II_DUT_2021_RN_465.2021_RN628.2025_RN629.2025.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/downloads/Anexo_I_Rol_2021RN_465.2021_RN627L.2024.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test1/PdfDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test1/PdfDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test1/ZipCompressor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test1/ZipCompressor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,25 +34,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Teste1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Teste2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TesteDeNivelamento.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WebScraper.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;teste-De-Web-Scraping&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/USER/Desktop/Maylis Maria/IntuitiveCare/TestesDeNivelamento/.idea&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Desktop/Maylis Maria/IntuitiveCare/TestesDeNivelamento&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Teste1.executor": "Run",
+    "Application.Teste2.executor": "Run",
+    "Application.TesteDeNivelamento.executor": "Run",
+    "Application.WebScraper.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "teste-de-transformacao-de-dados",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/USER/Desktop/Maylis Maria/IntuitiveCare/TestesDeNivelamento/.idea",
+    "last_opened_file_path": "C:/Users/USER/Desktop/Maylis Maria/IntuitiveCare/TestesDeNivelamento",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="test2" />
@@ -148,7 +145,31 @@
       <option name="project" value="LOCAL" />
       <updated>1743003291100</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Refatorando clsses PdfDownloader, PdfLinkFinder e ZipCompressor do teste 1">
+      <option name="closed" value="true" />
+      <created>1743443505095</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743443505095</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Pasta com anexos zip e anexos descompactados">
+      <option name="closed" value="true" />
+      <created>1743443579634</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743443579634</updated>
+    </task>
+    <task id="LOCAL-00005">
+      <option name="closed" value="true" />
+      <created>1743444531947</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743444531947</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +186,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="Teste 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Teste 1" />
+    <MESSAGE value="Refatorando clsses PdfDownloader, PdfLinkFinder e ZipCompressor do teste 1" />
+    <MESSAGE value="Pasta com anexos zip e anexos descompactados" />
+    <MESSAGE value="Adicionando dependencias no pom" />
+    <MESSAGE value="Classes teste 2" />
+    <MESSAGE value="Classe teste 2" />
+    <MESSAGE value="rol de procedimentos no csv" />
+    <option name="LAST_COMMIT_MESSAGE" value="rol de procedimentos no csv" />
   </component>
 </project>
