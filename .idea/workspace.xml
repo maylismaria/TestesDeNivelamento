@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a315e8b-8045-43da-95c3-a6ac7c72bf1a" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/Main.java" afterDir="false" />
+    <list default="true" id="8a315e8b-8045-43da-95c3-a6ac7c72bf1a" name="Changes" comment="Teste 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Anexos.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Anexos.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Anexo_II_DUT_2021_RN_465.2021_RN628.2025_RN629.2025.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/Anexo_I_Rol_2021RN_465.2021_RN627L.2024.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PdfDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test1/PdfDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PdfLinkFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test1/PdfLinkFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TesteDeNivelamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test1/Teste1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ZipCompressor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test1/ZipCompressor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test1/PdfDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test1/PdfDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test1/ZipCompressor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test1/ZipCompressor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,26 +37,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Teste1.executor": "Run",
-    "Application.TesteDeNivelamento.executor": "Run",
-    "Application.WebScraper.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "teste-De-Web-Scraping",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/USER/Desktop/Maylis Maria/IntuitiveCare/TestesDeNivelamento"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Teste1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Teste2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteDeNivelamento.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WebScraper.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;teste-De-Web-Scraping&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/USER/Desktop/Maylis Maria/IntuitiveCare/TestesDeNivelamento/.idea&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Desktop/Maylis Maria/IntuitiveCare/TestesDeNivelamento&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Teste1">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Teste2">
     <configuration name="Teste1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test1.Teste1" />
       <module name="TesteDeNivelamento" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Teste2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test2.Teste2" />
+      <module name="TesteDeNivelamento" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,6 +116,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Teste2" />
         <item itemvalue="Application.Teste1" />
         <item itemvalue="Application.TesteDeNivelamento" />
         <item itemvalue="Application.WebScraper" />
@@ -115,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742941538701</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Teste 1">
+      <option name="closed" value="true" />
+      <created>1743003291100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743003291100</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +164,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="Teste 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Teste 1" />
   </component>
 </project>
