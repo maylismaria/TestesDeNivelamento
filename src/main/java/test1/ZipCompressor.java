@@ -8,9 +8,6 @@ import java.util.zip.ZipOutputStream;
 public class ZipCompressor {
 
     public static void zipFiles(List<String> filesToZip, String zipFilePath) throws IOException {
-        if (filesToZip == null || filesToZip.isEmpty()) {
-            return; // Nenhum arquivo para compactar
-        }
 
         try (FileOutputStream fos = new FileOutputStream(zipFilePath);
              ZipOutputStream zos = new ZipOutputStream(fos)) {
